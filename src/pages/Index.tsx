@@ -264,7 +264,7 @@ const Index = () => {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all overflow-hidden group">
               <div className="aspect-video bg-gradient-to-br from-primary/5 to-primary/10 relative overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/files/53c0b021-4653-4b8f-913b-d007b309a23f.png" 
+                  src="https://cdn.poehali.dev/files/904eb984-0d14-4ed4-90d6-de198f52575a.png" 
                   alt="Газопоршневая электростанция"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -387,7 +387,7 @@ const Index = () => {
                 <div className="grid lg:grid-cols-2 gap-0">
                   <div className="bg-gradient-to-br from-primary/5 to-primary/10 p-8 lg:p-12 flex items-center justify-center">
                     <img 
-                      src="https://cdn.poehali.dev/files/61c9a605-f1f7-49cb-a4e8-2e1439bd6966.png"
+                      src="https://cdn.poehali.dev/files/64073d92-69bf-41da-8102-fe3f2a1724f1.png"
                       alt="Технические характеристики 30-50 кВт"
                       className="w-full h-auto rounded-lg shadow-lg"
                     />
@@ -469,7 +469,7 @@ const Index = () => {
                   </div>
                   <div className="order-1 lg:order-2 bg-gradient-to-br from-primary/5 to-primary/10 p-8 lg:p-12 flex items-center justify-center">
                     <img 
-                      src="https://cdn.poehali.dev/files/3aafcfcc-ed2f-437e-9d67-078efdab57c0.png"
+                      src="https://cdn.poehali.dev/files/3fe45353-c7a3-457b-8061-af56b41eac49.png"
                       alt="Технические характеристики 100-250 кВт"
                       className="w-full h-auto rounded-lg shadow-lg"
                     />
