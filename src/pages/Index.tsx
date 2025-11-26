@@ -370,6 +370,141 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-4">
+              Технические характеристики
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Детальные спецификации газопоршневых электростанций различной мощности
+            </p>
+          </div>
+
+          <div className="space-y-12">
+            <Card className="border-0 shadow-xl overflow-hidden">
+              <CardContent className="p-0">
+                <div className="grid lg:grid-cols-2 gap-0">
+                  <div className="bg-gradient-to-br from-primary/5 to-primary/10 p-8 lg:p-12 flex items-center justify-center">
+                    <img 
+                      src="https://cdn.poehali.dev/files/61c9a605-f1f7-49cb-a4e8-2e1439bd6966.png"
+                      alt="Технические характеристики 30-50 кВт"
+                      className="w-full h-auto rounded-lg shadow-lg"
+                    />
+                  </div>
+                  <div className="p-8 lg:p-12 flex flex-col justify-center">
+                    <h3 className="text-3xl font-bold text-primary mb-6">Установки 30-50 кВт</h3>
+                    <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
+                      Компактные газопоршневые электростанции для малого и среднего бизнеса. Идеальны для объектов с потреблением до 50 кВт.
+                    </p>
+                    <div className="grid grid-cols-2 gap-4 mb-8">
+                      <div className="bg-muted/50 rounded-lg p-4">
+                        <div className="text-2xl font-bold text-primary">30-50</div>
+                        <div className="text-sm text-muted-foreground">кВт мощность</div>
+                      </div>
+                      <div className="bg-muted/50 rounded-lg p-4">
+                        <div className="text-2xl font-bold text-primary">600 В</div>
+                        <div className="text-sm text-muted-foreground">Напряжение</div>
+                      </div>
+                      <div className="bg-muted/50 rounded-lg p-4">
+                        <div className="text-2xl font-bold text-primary">≥76%</div>
+                        <div className="text-sm text-muted-foreground">КПД</div>
+                      </div>
+                      <div className="bg-muted/50 rounded-lg p-4">
+                        <div className="text-2xl font-bold text-primary">24/7</div>
+                        <div className="text-sm text-muted-foreground">Режим работы</div>
+                      </div>
+                    </div>
+                    <div className="flex gap-4">
+                      <Button className="bg-secondary hover:bg-secondary/90 flex-1">
+                        <Icon name="ShoppingCart" size={18} className="mr-2" />
+                        Купить установку
+                      </Button>
+                      <Button variant="outline" className="flex-1">
+                        <Icon name="Download" size={18} className="mr-2" />
+                        Скачать PDF
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-xl overflow-hidden">
+              <CardContent className="p-0">
+                <div className="grid lg:grid-cols-2 gap-0">
+                  <div className="order-2 lg:order-1 p-8 lg:p-12 flex flex-col justify-center">
+                    <h3 className="text-3xl font-bold text-primary mb-6">Установки 100-250 кВт</h3>
+                    <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
+                      Мощные газопоршневые электростанции для крупных промышленных объектов и месторождений. Высокая надежность и эффективность.
+                    </p>
+                    <div className="grid grid-cols-2 gap-4 mb-8">
+                      <div className="bg-muted/50 rounded-lg p-4">
+                        <div className="text-2xl font-bold text-primary">100-250</div>
+                        <div className="text-sm text-muted-foreground">кВт мощность</div>
+                      </div>
+                      <div className="bg-muted/50 rounded-lg p-4">
+                        <div className="text-2xl font-bold text-primary">230/400</div>
+                        <div className="text-sm text-muted-foreground">В напряжение</div>
+                      </div>
+                      <div className="bg-muted/50 rounded-lg p-4">
+                        <div className="text-2xl font-bold text-primary">≥80%</div>
+                        <div className="text-sm text-muted-foreground">КПД</div>
+                      </div>
+                      <div className="bg-muted/50 rounded-lg p-4">
+                        <div className="text-2xl font-bold text-primary">IP65</div>
+                        <div className="text-sm text-muted-foreground">Защита</div>
+                      </div>
+                    </div>
+                    <div className="flex gap-4">
+                      <Button className="bg-secondary hover:bg-secondary/90 flex-1">
+                        <Icon name="ShoppingCart" size={18} className="mr-2" />
+                        Купить установку
+                      </Button>
+                      <Button variant="outline" className="flex-1">
+                        <Icon name="Download" size={18} className="mr-2" />
+                        Скачать PDF
+                      </Button>
+                    </div>
+                  </div>
+                  <div className="order-1 lg:order-2 bg-gradient-to-br from-primary/5 to-primary/10 p-8 lg:p-12 flex items-center justify-center">
+                    <img 
+                      src="https://cdn.poehali.dev/files/3aafcfcc-ed2f-437e-9d67-078efdab57c0.png"
+                      alt="Технические характеристики 100-250 кВт"
+                      className="w-full h-auto rounded-lg shadow-lg"
+                    />
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <Card className="mt-12 bg-gradient-to-br from-secondary/10 to-secondary/5 border-2 border-secondary/20">
+            <CardContent className="p-8 lg:p-12">
+              <div className="text-center space-y-6">
+                <div className="w-20 h-20 bg-secondary/20 rounded-full flex items-center justify-center mx-auto">
+                  <Icon name="Package" className="text-secondary" size={40} />
+                </div>
+                <h3 className="text-3xl font-bold text-primary">Готовы купить оборудование?</h3>
+                <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                  Мы предлагаем как аренду с экономией 20%, так и прямую продажу оборудования. Получите индивидуальное коммерческое предложение.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                  <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-lg px-8">
+                    <Icon name="ShoppingCart" size={20} className="mr-2" />
+                    Купить оборудование
+                  </Button>
+                  <Button size="lg" variant="outline" className="text-lg px-8 border-2">
+                    <Icon name="Calculator" size={20} className="mr-2" />
+                    Арендовать со скидкой 20%
+                  </Button>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       <section id="contact" className="py-20 bg-gradient-to-br from-primary via-primary/95 to-primary/80 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
